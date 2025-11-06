@@ -1,15 +1,126 @@
+# =============================
+# Compilação / build
+# =============================
+/build/
+out/
+bin/
+dist/
+.gradle/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+*.ipr
+*.iws
+
+# =============================
+# Arquivos Kotlin compilados
+# =============================
+*.class
+*.jar
+*.war
+*.ear
+*.kotlin_module
+
+# =============================
+# Caches e temporários
+# =============================
+*.log
+*.tmp
+*.swp
+*.bak
+*.DS_Store
+*.cache
+*.out
+
+# =============================
+# Configurações locais
+# =============================
 local.properties
+*.env
+.env.*
+*.local
+
+# =============================
+# IDEs e editores
+# =============================
+.vscode/
+.idea/*
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# =============================
+# Arquivos do sistema
+# =============================
+Thumbs.db
+Desktop.ini
+
+# =============================
+# SDKMAN, JDK e dependências baixadas
+# =============================
+.sdkman/
+.gradle/
+.kotlinc/
+.kotlin/
+*.lock
+
+# =============================
+# Diretórios de execução
+# =============================
+node_modules/
+run/
+logs/
+tmp/
+
+# =============================
+# Arquivos de exemplo e builds manuais
+# =============================
+*.zip
+*.tar.gz
+*.jar.old
+*.class.old
+
+# =============================
+# Arquivos de projeto temporários
+# =============================
+*.test.kt
+*.example.kt
+
+# =============================
+# Gradle Wrapper (binários e cache)
+# =============================
+**/gradle/wrapper/gradle-wrapper.jar
+**/gradle/wrapper/dists/
+**/gradle/wrapper/cache/
+
+# =============================
+# Android específicos
+# =============================
+**/captures/
+**/release/
+**/debug/
+**/generated/
+**/.cxx/
+**/.externalNativeBuild/
+**/.navigation/
+**/.signing/
+**/app/release/
+**/app/debug/
+*.apk
+*.ap_
+*.aab
+
+# =============================
+# Arquivos de build temporários
+# =============================
+*.so
+*.dex
+*.class
+*.hprof
+
+# =============================
+# Arquivos de sistema de versão
+# =============================
+*.orig
+*.rej
+*.patch
