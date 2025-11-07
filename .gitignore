@@ -43,6 +43,8 @@ local.properties
 # =============================
 .vscode/
 .idea/*
+cli/.idea/
+cli/.idea/*
 !.idea/codeStyles/
 !.idea/inspectionProfiles/
 *.iml
