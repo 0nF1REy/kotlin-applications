@@ -31,16 +31,24 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import dev.alanryan.pokedex.ui.theme.PokedexTheme
 import dev.alanryan.pokedex.viewmodels.MainViewModel
+import dev.alanryan.pokedex.viewmodels.MainViewModelFactory
 import dev.alanryan.pokedex.views.Circles
 import dev.alanryan.pokedex.views.Lines
+import dev.alanryan.pokedex.views.PokemonImageFrame
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
+
         enableEdgeToEdge()
+        
         setContent {
             PokedexTheme {
-                val mainViewModel: MainViewModel = viewModel()
+
+                val mainViewModel: MainViewModel = androidx.lifecycle.viewmodel.compose.viewModel(
+                    factory = MainViewModelFactory(application)
+                )
 
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     PokedexScreen(
@@ -90,6 +98,15 @@ fun PokedexScreen(
             fontSize = 36.sp,
             color = Color.White
         )
+
+        Spacer(modifier = Modifier.height(8.dp))
+
+        if (currentPokemon != null) {
+            PokemonImageFrame(
+                currentPokemon = currentPokemon,
+                font = font
+            )
+        }
 
         Spacer(modifier = Modifier.height(8.dp))
     }

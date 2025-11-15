@@ -1,37 +1,34 @@
 package dev.alanryan.pokedex.viewmodels
 
-import android.util.Log
-import androidx.lifecycle.ViewModel
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import dev.alanryan.pokedex.models.Pokemon
-import dev.alanryan.pokedex.network.RetrofitClient
+import dev.alanryan.pokedex.network.response.PokemonResponse
+import dev.alanryan.pokedex.utils.loadJsonFromAssets
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
-import java.lang.Exception
 
-class MainViewModel : ViewModel() {
+class MainViewModel(application: Application) : AndroidViewModel(application) {
+
     private var _pokemonList = MutableStateFlow<List<Pokemon>>(emptyList())
     val pokemonList = _pokemonList.asStateFlow()
 
     init {
-        getPokemons()
+        loadPokemonsFromAssets()
     }
 
-    private fun getPokemons() {
+    private fun loadPokemonsFromAssets() {
         viewModelScope.launch(Dispatchers.IO) {
-            try {
-                val response = RetrofitClient.retrofit.getPokemons()
 
-                if (response.isSuccessful) {
-                    _pokemonList.value = response.body()?.pokemonList ?: emptyList()
-                } else {
-                    Log.e("MainViewModel", "Erro na resposta da API: ${response.code()}")
-                }
-            } catch (e: Exception) {
-                Log.e("MainViewModel", "Falha ao buscar Pokémons: ${e.message}")
-            }
+            val context = getApplication<Application>().applicationContext
+
+            val data: PokemonResponse =
+                loadJsonFromAssets(context, "pokemon_data_gen1.json")
+
+            _pokemonList.value = data.pokemonList
         }
     }
 }
