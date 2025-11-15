@@ -1,5 +1,7 @@
 package dev.alanryan.pokedex
 
+import androidx.compose.material3.*
+import dev.alanryan.pokedex.ui.components.PokedexTopBar
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -20,7 +22,6 @@ import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
@@ -28,7 +29,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.lifecycle.viewmodel.compose.viewModel
 import dev.alanryan.pokedex.ui.theme.PokedexTheme
 import dev.alanryan.pokedex.viewmodels.MainViewModel
 import dev.alanryan.pokedex.viewmodels.MainViewModelFactory
@@ -42,7 +42,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         enableEdgeToEdge()
-        
+
         setContent {
             PokedexTheme {
 
@@ -50,7 +50,10 @@ class MainActivity : ComponentActivity() {
                     factory = MainViewModelFactory(application)
                 )
 
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                Scaffold(
+                    modifier = Modifier.fillMaxSize(),
+                    topBar = { PokedexTopBar() }
+                ) { innerPadding ->
                     PokedexScreen(
                         modifier = Modifier.padding(innerPadding),
                         viewModel = mainViewModel
@@ -77,7 +80,7 @@ fun PokedexScreen(
     Column(
         modifier = modifier
             .fillMaxSize()
-            .background(colorResource(R.color.red))
+            .background(MaterialTheme.colorScheme.primary)
     ) {
 
         Circles()
