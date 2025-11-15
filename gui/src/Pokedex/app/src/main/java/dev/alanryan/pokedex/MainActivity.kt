@@ -23,6 +23,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.lifecycle.viewmodel.compose.viewModel
 import dev.alanryan.pokedex.ui.theme.PokedexTheme
 import dev.alanryan.pokedex.viewmodels.MainViewModel
+import dev.alanryan.pokedex.views.Circles
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -61,18 +62,7 @@ fun PokedexScreen(
             .fillMaxSize()
             .background(colorResource(R.color.red))
     ) {
-        if (currentPokemon != null) {
-            Text(
-                text = "Pokémon: ${currentPokemon.name}",
-                fontFamily = font,
-                color = Color.White
-            )
-        } else {
-            Text(
-                text = "Carregando Pokémons...",
-                fontFamily = font,
-                color = Color.White
-            )
-        }
+
+        Circles()
     }
 }
