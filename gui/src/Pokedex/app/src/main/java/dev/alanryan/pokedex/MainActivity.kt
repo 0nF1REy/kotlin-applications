@@ -33,6 +33,7 @@ import dev.alanryan.pokedex.ui.theme.PokedexTheme
 import dev.alanryan.pokedex.viewmodels.MainViewModel
 import dev.alanryan.pokedex.viewmodels.MainViewModelFactory
 import dev.alanryan.pokedex.views.Circles
+import dev.alanryan.pokedex.views.EvolutionCard
 import dev.alanryan.pokedex.views.Lines
 import dev.alanryan.pokedex.views.PokemonImageFrame
 
@@ -108,6 +109,14 @@ fun PokedexScreen(
             PokemonImageFrame(
                 currentPokemon = currentPokemon,
                 font = font
+            )
+        }
+
+        Spacer(modifier = Modifier.height(8.dp))
+
+        if (currentPokemon != null) {
+            EvolutionCard(
+                currentPokemon = currentPokemon
             )
         }
 
