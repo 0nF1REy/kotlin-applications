@@ -20,6 +20,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
@@ -35,6 +36,7 @@ import dev.alanryan.pokedex.viewmodels.MainViewModelFactory
 import dev.alanryan.pokedex.views.Circles
 import dev.alanryan.pokedex.views.EvolutionCard
 import dev.alanryan.pokedex.views.Lines
+import dev.alanryan.pokedex.views.NavigationButtons
 import dev.alanryan.pokedex.views.PokemonImageFrame
 import dev.alanryan.pokedex.views.TypeStrengthWeaknessCard
 
@@ -75,7 +77,7 @@ fun PokedexScreen(
 
     val pokemonList by viewModel.pokemonList.collectAsState()
 
-    val currentIndex by remember { mutableIntStateOf(0) }
+    var currentIndex by remember { mutableIntStateOf(0) }
 
     val currentPokemon = pokemonList.getOrNull(currentIndex)
 
@@ -128,5 +130,20 @@ fun PokedexScreen(
                 currentPokemon = currentPokemon
             )
         }
+
+        NavigationButtons(
+            currentIndex = currentIndex,
+            totalPokemons = pokemonList.size,
+            onPreviousClick = {
+                if (currentIndex > 0) {
+                    currentIndex--
+                }
+            },
+            onNextClick = {
+                if (currentIndex < (pokemonList.size -1)) {
+                    currentIndex++
+                }
+            }
+        )
     }
 }
