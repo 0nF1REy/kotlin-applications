@@ -8,6 +8,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
+import kotlin.math.cos
+import kotlin.math.sin
 
 @Composable
 fun Lines() {
@@ -19,26 +21,26 @@ fun Lines() {
         val startX = 0f
         val startY = size.height / 3f
         val endX = size.width / 3f
-        val endY = startY
 
         drawLine(
             color = Color.White,
             start = Offset(startX, startY),
-            end = Offset(endX, endY),
+            end = Offset(endX, startY),
             strokeWidth = 8f
         )
 
         val lineLength = 200f
         val angle = Math.toRadians(45.0)
-        val deltaX = (lineLength * Math.cos(angle)).toFloat()
-        val deltaY = (lineLength * Math.sin(angle)).toFloat()
+
+        val deltaX = (lineLength * cos(angle)).toFloat()
+        val deltaY = (lineLength * sin(angle)).toFloat()
 
         val diagonalEndX = endX + deltaX
-        val diagonalEndY = endY - deltaY
+        val diagonalEndY = startY - deltaY
 
         drawLine(
             color = Color.White,
-            start = Offset(endX, endY),
+            start = Offset(endX, startY),
             end = Offset(diagonalEndX, diagonalEndY),
             strokeWidth = 8f
         )

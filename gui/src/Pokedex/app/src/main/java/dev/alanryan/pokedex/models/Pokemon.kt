@@ -1,7 +1,5 @@
 package dev.alanryan.pokedex.models
 
-import com.google.gson.annotations.SerializedName
-
 data class Pokemon(
     val pokemonImage: String,
     val pokedexNumber: Int,
