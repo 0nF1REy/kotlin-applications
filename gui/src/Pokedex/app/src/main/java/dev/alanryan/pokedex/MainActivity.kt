@@ -7,12 +7,12 @@ import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
-import dev.alanryan.pokedex.ui.components.PokedexTopBar
 import dev.alanryan.pokedex.ui.screens.PokedexScreen
 import dev.alanryan.pokedex.ui.theme.PokedexTheme
 import dev.alanryan.pokedex.viewmodels.MainViewModel
@@ -36,7 +36,7 @@ class MainActivity : ComponentActivity() {
 
                 Scaffold(
                     modifier = Modifier.fillMaxSize(),
-                    topBar = { PokedexTopBar() }
+                    containerColor = MaterialTheme.colorScheme.primary
                 ) { innerPadding ->
                     if (pokemonList.isNotEmpty()) {
                         PokedexScreen(

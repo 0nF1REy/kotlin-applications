@@ -1,12 +1,10 @@
 package dev.alanryan.pokedex.ui.screens
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -43,11 +41,14 @@ fun PokedexScreen(
     Column(
         modifier = modifier
             .fillMaxSize()
-            .background(MaterialTheme.colorScheme.primary)
     ) {
+
         Circles()
+
         Lines()
+
         Spacer(modifier = Modifier.height(8.dp))
+
         Text(
             modifier = Modifier.fillMaxWidth(),
             text = "Pokédex",
