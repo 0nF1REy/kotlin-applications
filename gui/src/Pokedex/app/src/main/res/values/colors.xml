@@ -29,4 +29,6 @@
     <color name="dark">#705746</color>
     <color name="steel">#B7B7D0</color>
     <color name="fairy">#F4A6D1</color>
+
+    <color name="splash_background">#4A4A4A</color>
 </resources>
