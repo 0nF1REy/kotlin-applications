@@ -36,6 +36,7 @@ import dev.alanryan.pokedex.views.Circles
 import dev.alanryan.pokedex.views.EvolutionCard
 import dev.alanryan.pokedex.views.Lines
 import dev.alanryan.pokedex.views.PokemonImageFrame
+import dev.alanryan.pokedex.views.TypeStrengthWeaknessCard
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -121,5 +122,11 @@ fun PokedexScreen(
         }
 
         Spacer(modifier = Modifier.height(8.dp))
+
+        if (currentPokemon != null) {
+            TypeStrengthWeaknessCard(
+                currentPokemon = currentPokemon
+            )
+        }
     }
 }

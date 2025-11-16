@@ -5,162 +5,162 @@
             "pokedexNumber": 1,
             "name": "Bulbasaur",
             "evolutions": ["Ivysaur", "Venusaur"],
-            "type": ["Planta", "Veneno"],
-            "strongAgainst": ["Agua", "Tierra", "Roca"],
-            "weakAgainst": ["Fuego", "Hielo", "Psiquico", "Volador"]
+            "type": ["Grass", "Poison"],
+            "strongAgainst": ["Water", "Ground", "Rock"],
+            "weakAgainst": ["Fire", "Ice", "Psychic", "Flying"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
             "pokedexNumber": 2,
             "name": "Ivysaur",
             "evolutions": ["Venusaur"],
-            "type": ["Planta", "Veneno"],
-            "strongAgainst": ["Agua", "Tierra", "Roca"],
-            "weakAgainst": ["Fuego", "Hielo", "Psiquico", "Volador"]
+            "type": ["Grass", "Poison"],
+            "strongAgainst": ["Water", "Ground", "Rock"],
+            "weakAgainst": ["Fire", "Ice", "Psychic", "Flying"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
             "pokedexNumber": 3,
             "name": "Venusaur",
             "evolutions": [],
-            "type": ["Planta", "Veneno"],
-            "strongAgainst": ["Agua", "Tierra", "Roca"],
-            "weakAgainst": ["Fuego", "Hielo", "Psiquico", "Volador"]
+            "type": ["Grass", "Poison"],
+            "strongAgainst": ["Water", "Ground", "Rock"],
+            "weakAgainst": ["Fire", "Ice", "Psychic", "Flying"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
             "pokedexNumber": 4,
             "name": "Charmander",
             "evolutions": ["Charmeleon", "Charizard"],
-            "type": ["Fuego"],
-            "strongAgainst": ["Bicho", "Acero", "Hada", "Planta", "Hielo", "Bicho"],
-            "weakAgainst": ["Agua", "Roca", "Tierra"]
+            "type": ["Fire"],
+            "strongAgainst": ["Bug", "Steel", "Fairy", "Grass", "Ice", "Bug"],
+            "weakAgainst": ["Water", "Rock", "Ground"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
             "pokedexNumber": 5,
             "name": "Charmeleon",
             "evolutions": ["Charizard"],
-            "type": ["Fuego"],
-            "strongAgainst": ["Bicho", "Acero", "Hada", "Planta", "Hielo", "Bicho"],
-            "weakAgainst": ["Agua", "Roca", "Tierra"]
+            "type": ["Fire"],
+            "strongAgainst": ["Bug", "Steel", "Fairy", "Grass", "Ice", "Bug"],
+            "weakAgainst": ["Water", "Rock", "Ground"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
             "pokedexNumber": 6,
             "name": "Charizard",
             "evolutions": [],
-            "type": ["Fuego", "Volador"],
-            "strongAgainst": ["Bicho", "Acero", "Hada", "Planta", "Hielo", "Bicho"],
-            "weakAgainst": ["Agua", "Roca", "Tierra"]
+            "type": ["Fire", "Flying"],
+            "strongAgainst": ["Bug", "Steel", "Fairy", "Grass", "Ice", "Bug"],
+            "weakAgainst": ["Water", "Rock", "Ground"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
             "pokedexNumber": 7,
             "name": "Squirtle",
             "evolutions": ["Wartortle", "Blastoise"],
-            "type": ["Agua"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico", "Planta"]
+            "type": ["Water"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric", "Grass"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
             "pokedexNumber": 8,
             "name": "Wartortle",
             "evolutions": ["Blastoise"],
-            "type": ["Agua"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico", "Planta"]
+            "type": ["Water"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric", "Grass"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
             "pokedexNumber": 9,
             "name": "Blastoise",
             "evolutions": [],
-            "type": ["Agua"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico", "Planta"]
+            "type": ["Water"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric", "Grass"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
             "pokedexNumber": 10,
             "name": "Caterpie",
             "evolutions": ["Metapod", "Butterfree"],
-            "type": ["Bicho"],
-            "strongAgainst": ["Planta"],
-            "weakAgainst": ["Fuego", "Volador", "Roca"]
+            "type": ["Bug"],
+            "strongAgainst": ["Grass"],
+            "weakAgainst": ["Fire", "Flying", "Rock"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
             "pokedexNumber": 11,
             "name": "Metapod",
             "evolutions": ["Butterfree"],
-            "type": ["Bicho"],
-            "strongAgainst": ["Planta"],
-            "weakAgainst": ["Fuego", "Volador", "Roca"]
+            "type": ["Bug"],
+            "strongAgainst": ["Grass"],
+            "weakAgainst": ["Fire", "Flying", "Rock"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
             "pokedexNumber": 12,
             "name": "Butterfree",
             "evolutions": [],
-            "type": ["Bicho", "Volador"],
-            "strongAgainst": ["Planta", "Lucha", "Bicho"],
-            "weakAgainst": ["Fuego", "Roca", "Volador"]
+            "type": ["Bug", "Flying"],
+            "strongAgainst": ["Grass", "Fighting", "Bug"],
+            "weakAgainst": ["Fire", "Rock", "Flying"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
             "pokedexNumber": 13,
             "name": "Weedle",
             "evolutions": ["Kakuna", "Beedrill"],
-            "type": ["Bicho", "Veneno"],
-            "strongAgainst": ["Planta"],
-            "weakAgainst": ["Fuego", "Volador", "Roca", "Psiquico"]
+            "type": ["Bug", "Poison"],
+            "strongAgainst": ["Grass"],
+            "weakAgainst": ["Fire", "Flying", "Rock", "Psychic"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
             "pokedexNumber": 14,
             "name": "Kakuna",
             "evolutions": ["Beedrill"],
-            "type": ["Bicho", "Veneno"],
-            "strongAgainst": ["Planta"],
-            "weakAgainst": ["Fuego", "Volador", "Roca", "Psiquico"]
+            "type": ["Bug", "Poison"],
+            "strongAgainst": ["Grass"],
+            "weakAgainst": ["Fire", "Flying", "Rock", "Psychic"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
             "pokedexNumber": 15,
             "name": "Beedrill",
             "evolutions": [],
-            "type": ["Bicho", "Veneno"],
-            "strongAgainst": ["Planta"],
-            "weakAgainst": ["Fuego", "Volador", "Roca", "Psiquico"]
+            "type": ["Bug", "Poison"],
+            "strongAgainst": ["Grass"],
+            "weakAgainst": ["Fire", "Flying", "Rock", "Psychic"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
             "pokedexNumber": 16,
             "name": "Pidgey",
             "evolutions": ["Pidgeotto", "Pidgeot"],
-            "type": ["Normal", "Volador"],
-            "strongAgainst": ["Bicho", "Lucha"],
-            "weakAgainst": ["Electrico", "Hielo", "Roca"]
+            "type": ["Normal", "Flying"],
+            "strongAgainst": ["Bug", "Fighting"],
+            "weakAgainst": ["Electric", "Ice", "Rock"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
             "pokedexNumber": 17,
             "name": "Pidgeotto",
             "evolutions": ["Pidgeot"],
-            "type": ["Normal", "Volador"],
-            "strongAgainst": ["Bicho", "Lucha"],
-            "weakAgainst": ["Electrico", "Hielo", "Roca"]
+            "type": ["Normal", "Flying"],
+            "strongAgainst": ["Bug", "Fighting"],
+            "weakAgainst": ["Electric", "Ice", "Rock"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
             "pokedexNumber": 18,
             "name": "Pidgeot",
             "evolutions": [],
-            "type": ["Normal", "Volador"],
-            "strongAgainst": ["Bicho", "Lucha"],
-            "weakAgainst": ["Electrico", "Hielo", "Roca"]
+            "type": ["Normal", "Flying"],
+            "strongAgainst": ["Bug", "Fighting"],
+            "weakAgainst": ["Electric", "Ice", "Rock"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
@@ -169,7 +169,7 @@
             "evolutions": ["Raticate"],
             "type": ["Normal"],
             "strongAgainst": [],
-            "weakAgainst": ["Lucha"]
+            "weakAgainst": ["Fighting"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
@@ -178,286 +178,286 @@
             "evolutions": [],
             "type": ["Normal"],
             "strongAgainst": [],
-            "weakAgainst": ["Lucha"]
+            "weakAgainst": ["Fighting"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
             "pokedexNumber": 21,
             "name": "Spearow",
             "evolutions": ["Fearow"],
-            "type": ["Normal", "Volador"],
-            "strongAgainst": ["Bicho", "Lucha"],
-            "weakAgainst": ["Electrico", "Roca", "Hielo"]
+            "type": ["Normal", "Flying"],
+            "strongAgainst": ["Bug", "Fighting"],
+            "weakAgainst": ["Electric", "Rock", "Ice"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
             "pokedexNumber": 22,
             "name": "Fearow",
             "evolutions": [],
-            "type": ["Normal", "Volador"],
-            "strongAgainst": ["Bicho", "Lucha"],
-            "weakAgainst": ["Electrico", "Roca", "Hielo"]
+            "type": ["Normal", "Flying"],
+            "strongAgainst": ["Bug", "Fighting"],
+            "weakAgainst": ["Electric", "Rock", "Ice"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
             "pokedexNumber": 23,
             "name": "Ekans",
             "evolutions": ["Arbok"],
-            "type": ["Veneno"],
-            "strongAgainst": ["Hada"],
-            "weakAgainst": ["Psiquico", "Tierra"]
+            "type": ["Poison"],
+            "strongAgainst": ["Fairy"],
+            "weakAgainst": ["Psychic", "Ground"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
             "pokedexNumber": 24,
             "name": "Arbok",
             "evolutions": [],
-            "type": ["Veneno"],
-            "strongAgainst": ["Hada"],
-            "weakAgainst": ["Psiquico", "Tierra"]
+            "type": ["Poison"],
+            "strongAgainst": ["Fairy"],
+            "weakAgainst": ["Psychic", "Ground"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
             "pokedexNumber": 25,
             "name": "Pikachu",
             "evolutions": ["Raichu"],
-            "type": ["Electrico"],
-            "strongAgainst": ["Agua", "Volador"],
-            "weakAgainst": ["Tierra"]
+            "type": ["Electric"],
+            "strongAgainst": ["Water", "Flying"],
+            "weakAgainst": ["Ground"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
             "pokedexNumber": 26,
             "name": "Raichu",
             "evolutions": [],
-            "type": ["Electrico"],
-            "strongAgainst": ["Agua", "Volador"],
-            "weakAgainst": ["Tierra"]
+            "type": ["Electric"],
+            "strongAgainst": ["Water", "Flying"],
+            "weakAgainst": ["Ground"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
             "pokedexNumber": 27,
             "name": "Sandshrew",
             "evolutions": ["Sandslash"],
-            "type": ["Tierra"],
-            "strongAgainst": ["Electrico", "Veneno", "Roca", "Acero"],
-            "weakAgainst": ["Agua", "Planta", "Hielo"]
+            "type": ["Ground"],
+            "strongAgainst": ["Electric", "Poison", "Rock", "Steel"],
+            "weakAgainst": ["Water", "Grass", "Ice"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
             "pokedexNumber": 28,
             "name": "Sandslash",
             "evolutions": [],
-            "type": ["Tierra"],
-            "strongAgainst": ["Electrico", "Veneno", "Roca", "Acero"],
-            "weakAgainst": ["Agua", "Planta", "Hielo"]
+            "type": ["Ground"],
+            "strongAgainst": ["Electric", "Poison", "Rock", "Steel"],
+            "weakAgainst": ["Water", "Grass", "Ice"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
             "pokedexNumber": 29,
             "name": "Nidoran♀",
             "evolutions": ["Nidorina", "Nidoqueen"],
-            "type": ["Veneno"],
-            "strongAgainst": ["Hada"],
-            "weakAgainst": ["Tierra", "Psiquico"]
+            "type": ["Poison"],
+            "strongAgainst": ["Fairy"],
+            "weakAgainst": ["Ground", "Psychic"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
             "pokedexNumber": 30,
             "name": "Nidorina",
             "evolutions": ["Nidoqueen"],
-            "type": ["Veneno"],
-            "strongAgainst": ["Hada"],
-            "weakAgainst": ["Tierra", "Psiquico"]
+            "type": ["Poison"],
+            "strongAgainst": ["Fairy"],
+            "weakAgainst": ["Ground", "Psychic"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
             "pokedexNumber": 31,
             "name": "Nidoqueen",
             "evolutions": [],
-            "type": ["Veneno", "Tierra"],
-            "strongAgainst": ["Hada", "Agua", "Electrico", "Acero"],
-            "weakAgainst": ["Tierra", "Psiquico"]
+            "type": ["Poison", "Ground"],
+            "strongAgainst": ["Fairy", "Water", "Electric", "Steel"],
+            "weakAgainst": ["Ground", "Psychic"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
             "pokedexNumber": 32,
             "name": "Nidoran♂",
             "evolutions": ["Nidorino", "Nidoking"],
-            "type": ["Veneno"],
-            "strongAgainst": ["Hada"],
-            "weakAgainst": ["Tierra", "Psiquico"]
+            "type": ["Poison"],
+            "strongAgainst": ["Fairy"],
+            "weakAgainst": ["Ground", "Psychic"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
             "pokedexNumber": 33,
             "name": "Nidorino",
             "evolutions": ["Nidoking"],
-            "type": ["Veneno"],
-            "strongAgainst": ["Hada"],
-            "weakAgainst": ["Tierra", "Psiquico"]
+            "type": ["Poison"],
+            "strongAgainst": ["Fairy"],
+            "weakAgainst": ["Ground", "Psychic"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
             "pokedexNumber": 34,
             "name": "Nidoking",
             "evolutions": [],
-            "type": ["Veneno", "Tierra"],
-            "strongAgainst": ["Hada", "Agua", "Electrico", "Acero"],
-            "weakAgainst": ["Tierra", "Psiquico"]
+            "type": ["Poison", "Ground"],
+            "strongAgainst": ["Fairy", "Water", "Electric", "Steel"],
+            "weakAgainst": ["Ground", "Psychic"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
             "pokedexNumber": 35,
             "name": "Clefairy",
             "evolutions": ["Clefable"],
-            "type": ["Hada"],
-            "strongAgainst": ["Lucha", "Dragon"],
-            "weakAgainst": ["Acero", "Veneno"]
+            "type": ["Fairy"],
+            "strongAgainst": ["Fighting", "Dragon"],
+            "weakAgainst": ["Steel", "Poison"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
             "pokedexNumber": 36,
             "name": "Clefable",
             "evolutions": [],
-            "type": ["Hada"],
-            "strongAgainst": ["Lucha", "Dragon"],
-            "weakAgainst": ["Acero", "Veneno"]
+            "type": ["Fairy"],
+            "strongAgainst": ["Fighting", "Dragon"],
+            "weakAgainst": ["Steel", "Poison"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
             "pokedexNumber": 37,
             "name": "Vulpix",
             "evolutions": ["Ninetales"],
-            "type": ["Fuego"],
-            "strongAgainst": ["Bicho", "Acero", "Hada", "Planta", "Hielo"],
-            "weakAgainst": ["Agua", "Roca", "Tierra"]
+            "type": ["Fire"],
+            "strongAgainst": ["Bug", "Steel", "Fairy", "Grass", "Ice"],
+            "weakAgainst": ["Water", "Rock", "Ground"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
             "pokedexNumber": 38,
             "name": "Ninetales",
             "evolutions": [],
-            "type": ["Fuego"],
-            "strongAgainst": ["Bicho", "Acero", "Hada", "Planta", "Hielo"],
-            "weakAgainst": ["Agua", "Roca", "Tierra"]
+            "type": ["Fire"],
+            "strongAgainst": ["Bug", "Steel", "Fairy", "Grass", "Ice"],
+            "weakAgainst": ["Water", "Rock", "Ground"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
             "pokedexNumber": 39,
             "name": "Jigglypuff",
             "evolutions": ["Wigglytuff"],
-            "type": ["Normal", "Hada"],
-            "strongAgainst": ["Lucha", "Dragon"],
-            "weakAgainst": ["Acero", "Veneno"]
+            "type": ["Normal", "Fairy"],
+            "strongAgainst": ["Fighting", "Dragon"],
+            "weakAgainst": ["Steel", "Poison"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
             "pokedexNumber": 40,
             "name": "Wigglytuff",
             "evolutions": [],
-            "type": ["Normal", "Hada"],
-            "strongAgainst": ["Lucha", "Dragon"],
-            "weakAgainst": ["Acero", "Veneno"]
+            "type": ["Normal", "Fairy"],
+            "strongAgainst": ["Fighting", "Dragon"],
+            "weakAgainst": ["Steel", "Poison"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
             "pokedexNumber": 41,
             "name": "Zubat",
             "evolutions": ["Golbat"],
-            "type": ["Veneno", "Volador"],
-            "strongAgainst": ["Planta", "Lucha", "Bicho"],
-            "weakAgainst": ["Roca", "Electrico", "Hielo"]
+            "type": ["Poison", "Flying"],
+            "strongAgainst": ["Grass", "Fighting", "Bug"],
+            "weakAgainst": ["Rock", "Electric", "Ice"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
             "pokedexNumber": 42,
             "name": "Golbat",
             "evolutions": [],
-            "type": ["Veneno", "Volador"],
-            "strongAgainst": ["Planta", "Lucha", "Bicho"],
-            "weakAgainst": ["Roca", "Electrico", "Hielo"]
+            "type": ["Poison", "Flying"],
+            "strongAgainst": ["Grass", "Fighting", "Bug"],
+            "weakAgainst": ["Rock", "Electric", "Ice"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
             "pokedexNumber": 43,
             "name": "Oddish",
             "evolutions": ["Gloom", "Vileplume"],
-            "type": ["Planta", "Veneno"],
-            "strongAgainst": ["Agua", "Tierra", "Roca"],
-            "weakAgainst": ["Fuego", "Hielo", "Psiquico", "Volador"]
+            "type": ["Grass", "Poison"],
+            "strongAgainst": ["Water", "Ground", "Rock"],
+            "weakAgainst": ["Fire", "Ice", "Psychic", "Flying"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
             "pokedexNumber": 44,
             "name": "Gloom",
             "evolutions": ["Vileplume", "Vileplume (con piedra solar)"],
-            "type": ["Planta", "Veneno"],
-            "strongAgainst": ["Agua", "Tierra", "Roca"],
-            "weakAgainst": ["Fuego", "Hielo", "Psiquico", "Volador"]
+            "type": ["Grass", "Poison"],
+            "strongAgainst": ["Water", "Ground", "Rock"],
+            "weakAgainst": ["Fire", "Ice", "Psychic", "Flying"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
             "pokedexNumber": 45,
             "name": "Vileplume",
             "evolutions": [],
-            "type": ["Planta", "Veneno"],
-            "strongAgainst": ["Agua", "Tierra", "Roca"],
-            "weakAgainst": ["Fuego", "Hielo", "Psiquico", "Volador"]
+            "type": ["Grass", "Poison"],
+            "strongAgainst": ["Water", "Ground", "Rock"],
+            "weakAgainst": ["Fire", "Ice", "Psychic", "Flying"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
             "pokedexNumber": 46,
             "name": "Paras",
             "evolutions": ["Parasect"],
-            "type": ["Bicho", "Planta"],
-            "strongAgainst": ["Agua", "Roca"],
-            "weakAgainst": ["Fuego", "Volador", "Hielo", "Psiquico"]
+            "type": ["Bug", "Grass"],
+            "strongAgainst": ["Water", "Rock"],
+            "weakAgainst": ["Fire", "Flying", "Ice", "Psychic"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
             "pokedexNumber": 47,
             "name": "Parasect",
             "evolutions": [],
-            "type": ["Bicho", "Planta"],
-            "strongAgainst": ["Agua", "Roca"],
-            "weakAgainst": ["Fuego", "Volador", "Hielo", "Psiquico"]
+            "type": ["Bug", "Grass"],
+            "strongAgainst": ["Water", "Rock"],
+            "weakAgainst": ["Fire", "Flying", "Ice", "Psychic"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
             "pokedexNumber": 48,
             "name": "Venonat",
             "evolutions": ["Venomoth"],
-            "type": ["Bicho", "Veneno"],
-            "strongAgainst": ["Planta"],
-            "weakAgainst": ["Fuego", "Psiquico", "Volador"]
+            "type": ["Bug", "Poison"],
+            "strongAgainst": ["Grass"],
+            "weakAgainst": ["Fire", "Psychic", "Flying"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
             "pokedexNumber": 49,
             "name": "Venomoth",
             "evolutions": [],
-            "type": ["Bicho", "Veneno"],
-            "strongAgainst": ["Planta"],
-            "weakAgainst": ["Fuego", "Psiquico", "Volador"]
+            "type": ["Bug", "Poison"],
+            "strongAgainst": ["Grass"],
+            "weakAgainst": ["Fire", "Psychic", "Flying"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
             "pokedexNumber": 50,
             "name": "Diglett",
             "evolutions": ["Dugtrio"],
-            "type": ["Tierra"],
-            "strongAgainst": ["Electrico", "Veneno", "Roca", "Acero"],
-            "weakAgainst": ["Agua", "Planta", "Hielo"]
+            "type": ["Ground"],
+            "strongAgainst": ["Electric", "Poison", "Rock", "Steel"],
+            "weakAgainst": ["Water", "Grass", "Ice"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
             "pokedexNumber": 51,
             "name": "Dugtrio",
             "evolutions": [],
-            "type": ["Tierra"],
-            "strongAgainst": ["Electrico", "Veneno", "Roca", "Acero"],
-            "weakAgainst": ["Agua", "Planta", "Hielo"]
+            "type": ["Ground"],
+            "strongAgainst": ["Electric", "Poison", "Rock", "Steel"],
+            "weakAgainst": ["Water", "Grass", "Ice"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
@@ -466,7 +466,7 @@
             "evolutions": ["Persian"],
             "type": ["Normal"],
             "strongAgainst": [],
-            "weakAgainst": ["Lucha"]
+            "weakAgainst": ["Fighting"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
@@ -475,493 +475,493 @@
             "evolutions": [],
             "type": ["Normal"],
             "strongAgainst": [],
-            "weakAgainst": ["Lucha"]
+            "weakAgainst": ["Fighting"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
             "pokedexNumber": 54,
             "name": "Psyduck",
             "evolutions": ["Golduck"],
-            "type": ["Agua"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico", "Planta"]
+            "type": ["Water"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric", "Grass"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
             "pokedexNumber": 55,
             "name": "Golduck",
             "evolutions": [],
-            "type": ["Agua"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico", "Planta"]
+            "type": ["Water"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric", "Grass"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
             "pokedexNumber": 56,
             "name": "Mankey",
             "evolutions": ["Primeape"],
-            "type": ["Lucha"],
-            "strongAgainst": ["Hielo", "Roca", "Siniestro", "Acero"],
-            "weakAgainst": ["Psiquico", "Volador"]
+            "type": ["Fighting"],
+            "strongAgainst": ["Ice", "Rock", "Dark", "Steel"],
+            "weakAgainst": ["Psychic", "Flying"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
             "pokedexNumber": 57,
             "name": "Primeape",
             "evolutions": [],
-            "type": ["Lucha"],
-            "strongAgainst": ["Hielo", "Roca", "Siniestro", "Acero"],
-            "weakAgainst": ["Psiquico", "Volador"]
+            "type": ["Fighting"],
+            "strongAgainst": ["Ice", "Rock", "Dark", "Steel"],
+            "weakAgainst": ["Psychic", "Flying"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
             "pokedexNumber": 58,
             "name": "Growlithe",
             "evolutions": ["Arcanine"],
-            "type": ["Fuego"],
-            "strongAgainst": ["Bicho", "Acero", "Hada", "Planta", "Hielo"],
-            "weakAgainst": ["Agua", "Roca", "Tierra"]
+            "type": ["Fire"],
+            "strongAgainst": ["Bug", "Steel", "Fairy", "Grass", "Ice"],
+            "weakAgainst": ["Water", "Rock", "Ground"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
             "pokedexNumber": 59,
             "name": "Arcanine",
             "evolutions": [],
-            "type": ["Fuego"],
-            "strongAgainst": ["Bicho", "Acero", "Hada", "Planta", "Hielo"],
-            "weakAgainst": ["Agua", "Roca", "Tierra"]
+            "type": ["Fire"],
+            "strongAgainst": ["Bug", "Steel", "Fairy", "Grass", "Ice"],
+            "weakAgainst": ["Water", "Rock", "Ground"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
             "pokedexNumber": 60,
             "name": "Poliwag",
             "evolutions": ["Poliwhirl", "Poliwrath"],
-            "type": ["Agua"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico", "Planta"]
+            "type": ["Water"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric", "Grass"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
             "pokedexNumber": 61,
             "name": "Poliwhirl",
             "evolutions": ["Poliwrath"],
-            "type": ["Agua"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico", "Planta"]
+            "type": ["Water"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric", "Grass"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
             "pokedexNumber": 62,
             "name": "Poliwrath",
             "evolutions": [],
-            "type": ["Agua", "Lucha"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico", "Planta", "Psiquico", "Volador"]
+            "type": ["Water", "Fighting"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric", "Grass", "Psychic", "Flying"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
             "pokedexNumber": 63,
             "name": "Abra",
             "evolutions": ["Kadabra", "Alakazam"],
-            "type": ["Psiquico"],
-            "strongAgainst": ["Lucha", "Veneno"],
-            "weakAgainst": ["Bicho", "Fantasma", "Siniestro"]
+            "type": ["Psychic"],
+            "strongAgainst": ["Fighting", "Poison"],
+            "weakAgainst": ["Bug", "Ghost", "Dark"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
             "pokedexNumber": 64,
             "name": "Kadabra",
             "evolutions": ["Alakazam"],
-            "type": ["Psiquico"],
-            "strongAgainst": ["Lucha", "Veneno"],
-            "weakAgainst": ["Bicho", "Fantasma", "Siniestro"]
+            "type": ["Psychic"],
+            "strongAgainst": ["Fighting", "Poison"],
+            "weakAgainst": ["Bug", "Ghost", "Dark"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
             "pokedexNumber": 65,
             "name": "Alakazam",
             "evolutions": [],
-            "type": ["Psiquico"],
-            "strongAgainst": ["Lucha", "Veneno"],
-            "weakAgainst": ["Bicho", "Fantasma", "Siniestro"]
+            "type": ["Psychic"],
+            "strongAgainst": ["Fighting", "Poison"],
+            "weakAgainst": ["Bug", "Ghost", "Dark"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
             "pokedexNumber": 66,
             "name": "Machop",
             "evolutions": ["Machoke", "Machamp"],
-            "type": ["Lucha"],
-            "strongAgainst": ["Hielo", "Roca", "Siniestro", "Acero"],
-            "weakAgainst": ["Psiquico", "Volador"]
+            "type": ["Fighting"],
+            "strongAgainst": ["Ice", "Rock", "Dark", "Steel"],
+            "weakAgainst": ["Psychic", "Flying"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
             "pokedexNumber": 67,
             "name": "Machoke",
             "evolutions": ["Machamp"],
-            "type": ["Lucha"],
-            "strongAgainst": ["Hielo", "Roca", "Siniestro", "Acero"],
-            "weakAgainst": ["Psiquico", "Volador"]
+            "type": ["Fighting"],
+            "strongAgainst": ["Ice", "Rock", "Dark", "Steel"],
+            "weakAgainst": ["Psychic", "Flying"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
             "pokedexNumber": 68,
             "name": "Machamp",
             "evolutions": [],
-            "type": ["Lucha"],
-            "strongAgainst": ["Hielo", "Roca", "Siniestro", "Acero"],
-            "weakAgainst": ["Psiquico", "Volador"]
+            "type": ["Fighting"],
+            "strongAgainst": ["Ice", "Rock", "Dark", "Steel"],
+            "weakAgainst": ["Psychic", "Flying"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
             "pokedexNumber": 69,
             "name": "Bellsprout",
             "evolutions": ["Weepinbell", "Victreebel"],
-            "type": ["Planta", "Veneno"],
-            "strongAgainst": ["Agua", "Tierra", "Roca"],
-            "weakAgainst": ["Fuego", "Hielo", "Psiquico", "Volador"]
+            "type": ["Grass", "Poison"],
+            "strongAgainst": ["Water", "Ground", "Rock"],
+            "weakAgainst": ["Fire", "Ice", "Psychic", "Flying"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
             "pokedexNumber": 70,
             "name": "Weepinbell",
             "evolutions": ["Victreebel"],
-            "type": ["Planta", "Veneno"],
-            "strongAgainst": ["Agua", "Tierra", "Roca"],
-            "weakAgainst": ["Fuego", "Hielo", "Psiquico", "Volador"]
+            "type": ["Grass", "Poison"],
+            "strongAgainst": ["Water", "Ground", "Rock"],
+            "weakAgainst": ["Fire", "Ice", "Psychic", "Flying"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
             "pokedexNumber": 71,
             "name": "Victreebel",
             "evolutions": [],
-            "type": ["Planta", "Veneno"],
-            "strongAgainst": ["Agua", "Tierra", "Roca"],
-            "weakAgainst": ["Fuego", "Hielo", "Psiquico", "Volador"]
+            "type": ["Grass", "Poison"],
+            "strongAgainst": ["Water", "Ground", "Rock"],
+            "weakAgainst": ["Fire", "Ice", "Psychic", "Flying"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
             "pokedexNumber": 72,
             "name": "Tentacool",
             "evolutions": ["Tentacruel"],
-            "type": ["Agua", "Veneno"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico", "Psiquico"]
+            "type": ["Water", "Poison"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric", "Psychic"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
             "pokedexNumber": 73,
             "name": "Tentacruel",
             "evolutions": [],
-            "type": ["Agua", "Veneno"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico", "Psiquico"]
+            "type": ["Water", "Poison"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric", "Psychic"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
             "pokedexNumber": 74,
             "name": "Geodude",
             "evolutions": ["Graveler", "Golem"],
-            "type": ["Roca", "Tierra"],
-            "strongAgainst": ["Fuego", "Electrico", "Veneno", "Acero"],
-            "weakAgainst": ["Agua", "Planta", "Hielo"]
+            "type": ["Rock", "Ground"],
+            "strongAgainst": ["Fire", "Electric", "Poison", "Steel"],
+            "weakAgainst": ["Water", "Grass", "Ice"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
             "pokedexNumber": 75,
             "name": "Graveler",
             "evolutions": ["Golem"],
-            "type": ["Roca", "Tierra"],
-            "strongAgainst": ["Fuego", "Electrico", "Veneno", "Acero"],
-            "weakAgainst": ["Agua", "Planta", "Hielo"]
+            "type": ["Rock", "Ground"],
+            "strongAgainst": ["Fire", "Electric", "Poison", "Steel"],
+            "weakAgainst": ["Water", "Grass", "Ice"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
             "pokedexNumber": 76,
             "name": "Golem",
             "evolutions": [],
-            "type": ["Roca", "Tierra"],
-            "strongAgainst": ["Fuego", "Electrico", "Veneno", "Acero"],
-            "weakAgainst": ["Agua", "Planta", "Hielo"]
+            "type": ["Rock", "Ground"],
+            "strongAgainst": ["Fire", "Electric", "Poison", "Steel"],
+            "weakAgainst": ["Water", "Grass", "Ice"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
             "pokedexNumber": 77,
             "name": "Ponyta",
             "evolutions": ["Rapidash"],
-            "type": ["Fuego"],
-            "strongAgainst": ["Bicho", "Acero", "Hada", "Planta", "Hielo"],
-            "weakAgainst": ["Agua", "Roca", "Tierra"]
+            "type": ["Fire"],
+            "strongAgainst": ["Bug", "Steel", "Fairy", "Grass", "Ice"],
+            "weakAgainst": ["Water", "Rock", "Ground"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
             "pokedexNumber": 78,
             "name": "Rapidash",
             "evolutions": [],
-            "type": ["Fuego"],
-            "strongAgainst": ["Bicho", "Acero", "Hada", "Planta", "Hielo"],
-            "weakAgainst": ["Agua", "Roca", "Tierra"]
+            "type": ["Fire"],
+            "strongAgainst": ["Bug", "Steel", "Fairy", "Grass", "Ice"],
+            "weakAgainst": ["Water", "Rock", "Ground"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
             "pokedexNumber": 79,
             "name": "Slowpoke",
             "evolutions": ["Slowbro", "Slowking"],
-            "type": ["Agua", "Psiquico"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico", "Planta", "Fantasma", "Siniestro"]
+            "type": ["Water", "Psychic"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric", "Grass", "Ghost", "Dark"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
             "pokedexNumber": 80,
             "name": "Slowbro",
             "evolutions": [],
-            "type": ["Agua", "Psiquico"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico", "Planta", "Fantasma", "Siniestro"]
+            "type": ["Water", "Psychic"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric", "Grass", "Ghost", "Dark"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
             "pokedexNumber": 81,
             "name": "Magnemite",
             "evolutions": ["Magneton"],
-            "type": ["Electrico", "Acero"],
-            "strongAgainst": ["Agua", "Volador", "Hielo"],
-            "weakAgainst": ["Tierra", "Fuego"]
+            "type": ["Electric", "Steel"],
+            "strongAgainst": ["Water", "Flying", "Ice"],
+            "weakAgainst": ["Ground", "Fire"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
             "pokedexNumber": 82,
             "name": "Magneton",
             "evolutions": [],
-            "type": ["Electrico", "Acero"],
-            "strongAgainst": ["Agua", "Volador", "Hielo"],
-            "weakAgainst": ["Tierra", "Fuego"]
+            "type": ["Electric", "Steel"],
+            "strongAgainst": ["Water", "Flying", "Ice"],
+            "weakAgainst": ["Ground", "Fire"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
             "pokedexNumber": 83,
             "name": "Farfetch'd",
             "evolutions": [],
-            "type": ["Normal", "Volador"],
-            "strongAgainst": ["Planta", "Lucha", "Bicho"],
-            "weakAgainst": ["Electrico", "Hielo", "Roca"]
+            "type": ["Normal", "Flying"],
+            "strongAgainst": ["Grass", "Fighting", "Bug"],
+            "weakAgainst": ["Electric", "Ice", "Rock"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
             "pokedexNumber": 84,
             "name": "Doduo",
             "evolutions": ["Dodrio"],
-            "type": ["Normal", "Volador"],
-            "strongAgainst": ["Planta", "Lucha", "Bicho"],
-            "weakAgainst": ["Electrico", "Hielo", "Roca"]
+            "type": ["Normal", "Flying"],
+            "strongAgainst": ["Grass", "Fighting", "Bug"],
+            "weakAgainst": ["Electric", "Ice", "Rock"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
             "pokedexNumber": 85,
             "name": "Dodrio",
             "evolutions": [],
-            "type": ["Normal", "Volador"],
-            "strongAgainst": ["Planta", "Lucha", "Bicho"],
-            "weakAgainst": ["Electrico", "Hielo", "Roca"]
+            "type": ["Normal", "Flying"],
+            "strongAgainst": ["Grass", "Fighting", "Bug"],
+            "weakAgainst": ["Electric", "Ice", "Rock"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
             "pokedexNumber": 86,
             "name": "Seel",
             "evolutions": ["Dewgong"],
-            "type": ["Agua"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico", "Planta"]
+            "type": ["Water"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric", "Grass"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
             "pokedexNumber": 87,
             "name": "Dewgong",
             "evolutions": [],
-            "type": ["Agua", "Hielo"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico", "Planta"]
+            "type": ["Water", "Ice"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric", "Grass"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
             "pokedexNumber": 88,
             "name": "Grimer",
             "evolutions": ["Muk"],
-            "type": ["Veneno"],
-            "strongAgainst": ["Hada"],
-            "weakAgainst": ["Tierra", "Psiquico"]
+            "type": ["Poison"],
+            "strongAgainst": ["Fairy"],
+            "weakAgainst": ["Ground", "Psychic"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
             "pokedexNumber": 89,
             "name": "Muk",
             "evolutions": [],
-            "type": ["Veneno"],
-            "strongAgainst": ["Hada"],
-            "weakAgainst": ["Tierra", "Psiquico"]
+            "type": ["Poison"],
+            "strongAgainst": ["Fairy"],
+            "weakAgainst": ["Ground", "Psychic"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
             "pokedexNumber": 90,
             "name": "Shellder",
             "evolutions": ["Cloyster"],
-            "type": ["Agua"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico", "Planta"]
+            "type": ["Water"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric", "Grass"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
             "pokedexNumber": 91,
             "name": "Cloyster",
             "evolutions": [],
-            "type": ["Agua", "Hielo"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico", "Planta"]
+            "type": ["Water", "Ice"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric", "Grass"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
             "pokedexNumber": 92,
             "name": "Gastly",
             "evolutions": ["Haunter", "Gengar"],
-            "type": ["Fantasma", "Veneno"],
-            "strongAgainst": ["Psiquico"],
-            "weakAgainst": ["Fantasma", "Siniestro"]
+            "type": ["Ghost", "Poison"],
+            "strongAgainst": ["Psychic"],
+            "weakAgainst": ["Ghost", "Dark"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
             "pokedexNumber": 93,
             "name": "Haunter",
             "evolutions": ["Gengar"],
-            "type": ["Fantasma", "Veneno"],
-            "strongAgainst": ["Psiquico"],
-            "weakAgainst": ["Fantasma", "Siniestro"]
+            "type": ["Ghost", "Poison"],
+            "strongAgainst": ["Psychic"],
+            "weakAgainst": ["Ghost", "Dark"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
             "pokedexNumber": 94,
             "name": "Gengar",
             "evolutions": [],
-            "type": ["Fantasma","Veneno"], 
-            "strongAgainst": ["Psiquico"], 
-            "weakAgainst": ["Fantasma", "Siniestro"] 
+            "type": ["Ghost","Poison"], 
+            "strongAgainst": ["Psychic"], 
+            "weakAgainst": ["Ghost", "Dark"] 
         }, 
         { 
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png", 
             "pokedexNumber": 95, 
             "name": "Onix", 
             "evolutions": ["Steelix"], 
-            "type": ["Roca", "Tierra"], 
-            "strongAgainst": ["Fuego", "Electrico", "Veneno", "Acero"], 
-            "weakAgainst": ["Agua", "Planta", "Hielo"] 
+            "type": ["Rock", "Ground"], 
+            "strongAgainst": ["Fire", "Electric", "Poison", "Steel"], 
+            "weakAgainst": ["Water", "Grass", "Ice"] 
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
             "pokedexNumber": 96,
             "name": "Drowzee",
             "evolutions": ["Hypno"],
-            "type": ["Psiquico"],
-            "strongAgainst": ["Lucha", "Veneno"],
-            "weakAgainst": ["Bicho", "Fantasma", "Siniestro"]
+            "type": ["Psychic"],
+            "strongAgainst": ["Fighting", "Poison"],
+            "weakAgainst": ["Bug", "Ghost", "Dark"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
             "pokedexNumber": 97,
             "name": "Hypno",
             "evolutions": [],
-            "type": ["Psiquico"],
-            "strongAgainst": ["Lucha", "Veneno"],
-            "weakAgainst": ["Bicho", "Fantasma", "Siniestro"]
+            "type": ["Psychic"],
+            "strongAgainst": ["Fighting", "Poison"],
+            "weakAgainst": ["Bug", "Ghost", "Dark"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
             "pokedexNumber": 98,
             "name": "Krabby",
             "evolutions": ["Kingler"],
-            "type": ["Agua"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico", "Planta"]
+            "type": ["Water"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric", "Grass"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
             "pokedexNumber": 99,
             "name": "Kingler",
             "evolutions": [],
-            "type": ["Agua"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico", "Planta"]
+            "type": ["Water"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric", "Grass"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
             "pokedexNumber": 100,
             "name": "Voltorb",
             "evolutions": ["Electrode"],
-            "type": ["Electrico"],
-            "strongAgainst": ["Agua", "Volador"],
-            "weakAgainst": ["Tierra"]
+            "type": ["Electric"],
+            "strongAgainst": ["Water", "Flying"],
+            "weakAgainst": ["Ground"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
             "pokedexNumber": 101,
             "name": "Electrode",
             "evolutions": [],
-            "type": ["Electrico"],
-            "strongAgainst": ["Agua", "Volador"],
-            "weakAgainst": ["Tierra"]
+            "type": ["Electric"],
+            "strongAgainst": ["Water", "Flying"],
+            "weakAgainst": ["Ground"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
             "pokedexNumber": 102,
             "name": "Exeggcute",
             "evolutions": ["Exeggutor"],
-            "type": ["Planta", "Psiquico"],
-            "strongAgainst": ["Agua", "Tierra", "Roca"],
-            "weakAgainst": ["Fuego", "Hielo", "Psiquico", "Volador"]
+            "type": ["Grass", "Psychic"],
+            "strongAgainst": ["Water", "Ground", "Rock"],
+            "weakAgainst": ["Fire", "Ice", "Psychic", "Flying"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
             "pokedexNumber": 103,
             "name": "Exeggutor",
             "evolutions": [],
-            "type": ["Planta", "Psiquico"],
-            "strongAgainst": ["Agua", "Tierra", "Roca"],
-            "weakAgainst": ["Fuego", "Hielo", "Psiquico", "Volador"]
+            "type": ["Grass", "Psychic"],
+            "strongAgainst": ["Water", "Ground", "Rock"],
+            "weakAgainst": ["Fire", "Ice", "Psychic", "Flying"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
             "pokedexNumber": 104,
             "name": "Cubone",
             "evolutions": ["Marowak"],
-            "type": ["Tierra"],
-            "strongAgainst": ["Electrico", "Veneno", "Roca", "Acero"],
-            "weakAgainst": ["Agua", "Planta", "Hielo"]
+            "type": ["Ground"],
+            "strongAgainst": ["Electric", "Poison", "Rock", "Steel"],
+            "weakAgainst": ["Water", "Grass", "Ice"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
             "pokedexNumber": 105,
             "name": "Marowak",
             "evolutions": [],
-            "type": ["Tierra"],
-            "strongAgainst": ["Electrico", "Veneno", "Roca", "Acero"],
-            "weakAgainst": ["Agua", "Planta", "Hielo"]
+            "type": ["Ground"],
+            "strongAgainst": ["Electric", "Poison", "Rock", "Steel"],
+            "weakAgainst": ["Water", "Grass", "Ice"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
             "pokedexNumber": 106,
             "name": "Hitmonlee",
             "evolutions": [],
-            "type": ["Lucha"],
-            "strongAgainst": ["Hielo", "Roca", "Siniestro", "Acero"],
-            "weakAgainst": ["Psiquico", "Volador"]
+            "type": ["Fighting"],
+            "strongAgainst": ["Ice", "Rock", "Dark", "Steel"],
+            "weakAgainst": ["Psychic", "Flying"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
             "pokedexNumber": 107,
             "name": "Hitmonchan",
             "evolutions": [],
-            "type": ["Lucha"],
-            "strongAgainst": ["Hielo", "Roca", "Siniestro", "Acero"],
-            "weakAgainst": ["Psiquico", "Volador"]
+            "type": ["Fighting"],
+            "strongAgainst": ["Ice", "Rock", "Dark", "Steel"],
+            "weakAgainst": ["Psychic", "Flying"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
@@ -970,7 +970,7 @@
             "evolutions": ["Lickilicky"],
             "type": ["Normal"],
             "strongAgainst": [],
-            "weakAgainst": ["Lucha"]
+            "weakAgainst": ["Fighting"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
@@ -979,34 +979,34 @@
             "evolutions": ["Weezing"],
             "type": ["Normal"],
             "strongAgainst": [],
-            "weakAgainst": ["Lucha"]
+            "weakAgainst": ["Fighting"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
             "pokedexNumber": 110,
             "name": "Weezing",
             "evolutions": [""],
-            "type": ["Veneno"],
-            "strongAgainst": ["Hada"],
-            "weakAgainst": ["Tierra", "Psiquico"]
+            "type": ["Poison"],
+            "strongAgainst": ["Fairy"],
+            "weakAgainst": ["Ground", "Psychic"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
             "pokedexNumber": 111,
             "name": "Rhyhorn",
             "evolutions": ["Rhydon", "Rhyperior"],
-            "type": ["Roca", "Tierra"],
-            "strongAgainst": ["Fuego", "Electrico", "Veneno", "Volador", "Bicho"],
-            "weakAgainst": ["Agua", "Planta", "Hielo", "Lucha", "Tierra"]
+            "type": ["Rock", "Ground"],
+            "strongAgainst": ["Fire", "Electric", "Poison", "Flying", "Bug"],
+            "weakAgainst": ["Water", "Grass", "Ice", "Fighting", "Ground"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
             "pokedexNumber": 112,
             "name": "Rhydon",
             "evolutions": ["Rhyperior"],
-            "type": ["Roca", "Tierra"],
-            "strongAgainst": ["Fuego", "Electrico", "Veneno", "Volador", "Bicho"],
-            "weakAgainst": ["Agua", "Planta", "Hielo", "Lucha", "Tierra"]
+            "type": ["Rock", "Ground"],
+            "strongAgainst": ["Fire", "Electric", "Poison", "Flying", "Bug"],
+            "weakAgainst": ["Water", "Grass", "Ice", "Fighting", "Ground"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
@@ -1015,16 +1015,16 @@
             "evolutions": ["Blissey"],
             "type": ["Normal"],
             "strongAgainst": [],
-            "weakAgainst": ["Lucha"]
+            "weakAgainst": ["Fighting"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
             "pokedexNumber": 114,
             "name": "Tangela",
             "evolutions": ["Tangrowth"],
-            "type": ["Planta"],
-            "strongAgainst": ["Agua", "Tierra", "Roca"],
-            "weakAgainst": ["Fuego", "Hielo", "Volador", "Bicho", "Veneno"]
+            "type": ["Grass"],
+            "strongAgainst": ["Water", "Ground", "Rock"],
+            "weakAgainst": ["Fire", "Ice", "Flying", "Bug", "Poison"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
@@ -1033,115 +1033,115 @@
             "evolutions": [""],
             "type": ["Normal"],
             "strongAgainst": [],
-            "weakAgainst": ["Lucha"]
+            "weakAgainst": ["Fighting"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
             "pokedexNumber": 116,
             "name": "Horsea",
             "evolutions": ["Seadra"],
-            "type": ["Agua"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico"]
+            "type": ["Water"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
             "pokedexNumber": 117,
             "name": "Seadra",
             "evolutions": [""],
-            "type": ["Agua"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico"]
+            "type": ["Water"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
             "pokedexNumber": 118,
             "name": "Goldeen",
             "evolutions": ["Seaking"],
-            "type": ["Agua"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico"]
+            "type": ["Water"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
             "pokedexNumber": 119,
             "name": "Seaking",
             "evolutions": [""],
-            "type": ["Agua"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico"]
+            "type": ["Water"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
             "pokedexNumber": 120,
             "name": "Staryu",
             "evolutions": ["Starmie"],
-            "type": ["Agua"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico"]
+            "type": ["Water"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
             "pokedexNumber": 121,
             "name": "Starmie",
             "evolutions": [""],
-            "type": ["Agua", "Psiquico"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico", "Bicho", "Oscuro"]
+            "type": ["Water", "Psychic"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric", "Bug", "Oscuro"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
             "pokedexNumber": 122,
             "name": "Mr. Mime",
             "evolutions": [""],
-            "type": ["Psiquico", "Hada"],
-            "strongAgainst": ["Lucha", "Bicho"],
-            "weakAgainst": ["Fantasma", "Siniestro", "Acero"]
+            "type": ["Psychic", "Fairy"],
+            "strongAgainst": ["Fighting", "Bug"],
+            "weakAgainst": ["Ghost", "Dark", "Steel"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
             "pokedexNumber": 123,
             "name": "Scyther",
             "evolutions": [""],
-            "type": ["Bicho", "Volador"],
-            "strongAgainst": ["Planta", "Psiquico"],
-            "weakAgainst": ["Fuego", "Electrico", "Hielo", "Roca"]
+            "type": ["Bug", "Flying"],
+            "strongAgainst": ["Grass", "Psychic"],
+            "weakAgainst": ["Fire", "Electric", "Ice", "Rock"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
             "pokedexNumber": 124,
             "name": "Jynx",
             "evolutions": [""],
-            "type": ["Hielo", "Psiquico"],
-            "strongAgainst": ["Dragon", "Tierra", "Planta", "Volador", "Siniestro"],
-            "weakAgainst": ["Fuego", "Roca", "Acero", "Bicho", "Fantasma"]
+            "type": ["Ice", "Psychic"],
+            "strongAgainst": ["Dragon", "Ground", "Grass", "Flying", "Dark"],
+            "weakAgainst": ["Fire", "Rock", "Steel", "Bug", "Ghost"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
             "pokedexNumber": 125,
             "name": "Electabuzz",
             "evolutions": [""],
-            "type": ["Electrico"],
-            "strongAgainst": ["Agua", "Volador"],
-            "weakAgainst": ["Tierra"]
+            "type": ["Electric"],
+            "strongAgainst": ["Water", "Flying"],
+            "weakAgainst": ["Ground"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
             "pokedexNumber": 126,
             "name": "Magmar",
             "evolutions": [""],
-            "type": ["Fuego"],
-            "strongAgainst": ["Planta", "Hielo", "Bicho", "Acero"],
-            "weakAgainst": ["Agua", "Roca", "Tierra"]
+            "type": ["Fire"],
+            "strongAgainst": ["Grass", "Ice", "Bug", "Steel"],
+            "weakAgainst": ["Water", "Rock", "Ground"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
             "pokedexNumber": 127,
             "name": "Pinsir",
             "evolutions": [""],
-            "type": ["Bicho"],
-            "strongAgainst": ["Planta", "Psiquico"],
-            "weakAgainst": ["Fuego", "Volador", "Roca"]
+            "type": ["Bug"],
+            "strongAgainst": ["Grass", "Psychic"],
+            "weakAgainst": ["Fire", "Flying", "Rock"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
@@ -1150,34 +1150,34 @@
             "evolutions": [""],
             "type": ["Normal"],
             "strongAgainst": [],
-            "weakAgainst": ["Lucha"]
+            "weakAgainst": ["Fighting"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
             "pokedexNumber": 129,
             "name": "Magikarp",
             "evolutions": ["Gyarados"],
-            "type": ["Agua"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico"]
+            "type": ["Water"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
             "pokedexNumber": 130,
             "name": "Gyarados",
             "evolutions": [""],
-            "type": ["Agua", "Volador"],
-            "strongAgainst": ["Fuego", "Tierra", "Lucha", "Bicho"],
-            "weakAgainst": ["Electrico"]
+            "type": ["Water", "Flying"],
+            "strongAgainst": ["Fire", "Ground", "Fighting", "Bug"],
+            "weakAgainst": ["Electric"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
             "pokedexNumber": 131,
             "name": "Lapras",
             "evolutions": [""],
-            "type": ["Agua", "Hielo"],
-            "strongAgainst": ["Fuego", "Tierra", "Volador", "Dragon"],
-            "weakAgainst": ["Electrico", "Roca"]
+            "type": ["Water", "Ice"],
+            "strongAgainst": ["Fire", "Ground", "Flying", "Dragon"],
+            "weakAgainst": ["Electric", "Rock"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
@@ -1186,7 +1186,7 @@
             "evolutions": [""],
             "type": ["Normal"],
             "strongAgainst": [],
-            "weakAgainst": ["Lucha"]
+            "weakAgainst": ["Fighting"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
@@ -1195,34 +1195,34 @@
             "evolutions": ["Vaporeon", "Jolteon", "Flareon", "Espeon", "Umbreon", "Leafeon", "Glaceon", "Sylveon"],
             "type": ["Normal"],
             "strongAgainst": [],
-            "weakAgainst": ["Lucha"]
+            "weakAgainst": ["Fighting"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
             "pokedexNumber": 134,
             "name": "Vaporeon",
             "evolutions": [""],
-            "type": ["Agua"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico"]
+            "type": ["Water"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
             "pokedexNumber": 135,
             "name": "Jolteon",
             "evolutions": [""],
-            "type": ["Electrico"],
-            "strongAgainst": ["Agua", "Volador"],
-            "weakAgainst": ["Tierra"]
+            "type": ["Electric"],
+            "strongAgainst": ["Water", "Flying"],
+            "weakAgainst": ["Ground"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
             "pokedexNumber": 136,
             "name": "Flareon",
             "evolutions": [""],
-            "type": ["Fuego"],
-            "strongAgainst": ["Planta", "Hielo", "Bicho", "Acero"],
-            "weakAgainst": ["Agua", "Roca", "Tierra"]
+            "type": ["Fire"],
+            "strongAgainst": ["Grass", "Ice", "Bug", "Steel"],
+            "weakAgainst": ["Water", "Rock", "Ground"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
@@ -1231,52 +1231,52 @@
             "evolutions": ["Porygon2", "Porygon-Z"],
             "type": ["Normal"],
             "strongAgainst": [],
-            "weakAgainst": ["Lucha"]
+            "weakAgainst": ["Fighting"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
             "pokedexNumber": 138,
             "name": "Omanyte",
             "evolutions": ["Omastar"],
-            "type": ["Roca", "Agua"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico", "Planta"]
+            "type": ["Rock", "Water"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric", "Grass"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
             "pokedexNumber": 139,
             "name": "Omastar",
             "evolutions": [""],
-            "type": ["Roca", "Agua"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico", "Planta"]
+            "type": ["Rock", "Water"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric", "Grass"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
             "pokedexNumber": 140,
             "name": "Kabuto",
             "evolutions": ["Kabutops"],
-            "type": ["Roca", "Agua"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico", "Planta"]
+            "type": ["Rock", "Water"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric", "Grass"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
             "pokedexNumber": 141,
             "name": "Kabutops",
             "evolutions": [""],
-            "type": ["Roca", "Agua"],
-            "strongAgainst": ["Fuego", "Tierra", "Roca"],
-            "weakAgainst": ["Electrico", "Planta"]
+            "type": ["Rock", "Water"],
+            "strongAgainst": ["Fire", "Ground", "Rock"],
+            "weakAgainst": ["Electric", "Grass"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
             "pokedexNumber": 142,
             "name": "Aerodactyl",
             "evolutions": [""],
-            "type": ["Roca", "Volador"],
-            "strongAgainst": ["Fuego", "Bicho", "Planta", "Lucha"],
-            "weakAgainst": ["Electrico", "Hielo", "Roca"]
+            "type": ["Rock", "Flying"],
+            "strongAgainst": ["Fire", "Bug", "Grass", "Fighting"],
+            "weakAgainst": ["Electric", "Ice", "Rock"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
@@ -1285,34 +1285,34 @@
             "evolutions": [""],
             "type": ["Normal"],
             "strongAgainst": [],
-            "weakAgainst": ["Lucha"]
+            "weakAgainst": ["Fighting"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
             "pokedexNumber": 144,
             "name": "Articuno",
             "evolutions": [""],
-            "type": ["Hielo", "Volador"],
-            "strongAgainst": ["Planta", "Tierra", "Dragon"],
-            "weakAgainst": ["Fuego", "Roca", "Acero"]
+            "type": ["Ice", "Flying"],
+            "strongAgainst": ["Grass", "Ground", "Dragon"],
+            "weakAgainst": ["Fire", "Rock", "Steel"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
             "pokedexNumber": 145,
             "name": "Zapdos",
             "evolutions": [""],
-            "type": ["Electrico", "Volador"],
-            "strongAgainst": ["Agua", "Volador"],
-            "weakAgainst": ["Hielo", "Roca"]
+            "type": ["Electric", "Flying"],
+            "strongAgainst": ["Water", "Flying"],
+            "weakAgainst": ["Ice", "Rock"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
             "pokedexNumber": 146,
             "name": "Moltres",
             "evolutions": [""],
-            "type": ["Fuego", "Volador"],
-            "strongAgainst": ["Planta", "Hielo", "Bicho", "Acero"],
-            "weakAgainst": ["Agua", "Roca", "Electrico"]
+            "type": ["Fire", "Flying"],
+            "strongAgainst": ["Grass", "Ice", "Bug", "Steel"],
+            "weakAgainst": ["Water", "Rock", "Electric"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
@@ -1320,8 +1320,8 @@
             "name": "Dratini",
             "evolutions": ["Dragonair", "Dragonite"],
             "type": ["Dragon"],
-            "strongAgainst": ["Fuego", "Agua", "Electrico"],
-            "weakAgainst": ["Hielo", "Dragon", "Hada"]
+            "strongAgainst": ["Fire", "Water", "Electric"],
+            "weakAgainst": ["Ice", "Dragon", "Fairy"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
@@ -1329,35 +1329,35 @@
             "name": "Dragonair",
             "evolutions": ["Dragonite"],
             "type": ["Dragon"],
-            "strongAgainst": ["Fuego", "Agua", "Electrico"],
-            "weakAgainst": ["Hielo", "Dragon", "Hada"]
+            "strongAgainst": ["Fire", "Water", "Electric"],
+            "weakAgainst": ["Ice", "Dragon", "Fairy"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
             "pokedexNumber": 149,
             "name": "Dragonite",
             "evolutions": [""],
-            "type": ["Dragon", "Volador"],
-            "strongAgainst": ["Fuego", "Agua", "Electrico"],
-            "weakAgainst": ["Hielo", "Dragon", "Hada"]
+            "type": ["Dragon", "Flying"],
+            "strongAgainst": ["Fire", "Water", "Electric"],
+            "weakAgainst": ["Ice", "Dragon", "Fairy"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
             "pokedexNumber": 150,
             "name": "Mewtwo",
             "evolutions": [""],
-            "type": ["Psiquico"],
-            "strongAgainst": ["Lucha", "Veneno"],
-            "weakAgainst": ["Siniestro", "Fantasma"]
+            "type": ["Psychic"],
+            "strongAgainst": ["Fighting", "Poison"],
+            "weakAgainst": ["Dark", "Ghost"]
         },
         {
             "pokemonImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
             "pokedexNumber": 151,
             "name": "Mew",
             "evolutions": [""],
-            "type": ["Psiquico"],
+            "type": ["Psychic"],
             "strongAgainst": [],
-            "weakAgainst": ["Siniestro", "Fantasma"]
+            "weakAgainst": ["Dark", "Ghost"]
         }
     ]
 }
