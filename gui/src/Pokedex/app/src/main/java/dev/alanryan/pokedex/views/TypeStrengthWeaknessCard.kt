@@ -12,11 +12,13 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import dev.alanryan.pokedex.models.Pokemon
+import dev.alanryan.pokedex.utils.getTypeStringResource
 
 @Composable
 fun TypeStrengthWeaknessCard(
@@ -65,7 +67,7 @@ fun TypeStrengthWeaknessCard(
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .padding(4.dp),
-                            text = translateTypeToPortuguese(type),
+                            text = stringResource(id = getTypeStringResource(type)),
                             color = Color.White,
                             fontWeight = FontWeight.Bold,
                             textAlign = TextAlign.Center
@@ -102,7 +104,7 @@ fun TypeStrengthWeaknessCard(
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .padding(4.dp),
-                            text = translateTypeToPortuguese(type),
+                            text = stringResource(id = getTypeStringResource(type)),
                             color = Color.White,
                             fontWeight = FontWeight.Bold,
                             textAlign = TextAlign.Center

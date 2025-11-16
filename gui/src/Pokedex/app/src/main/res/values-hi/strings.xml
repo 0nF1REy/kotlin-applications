@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="type_normal">सामान्य</string>
+    <string name="type_fire">आग</string>
+    <string name="type_water">पानी</string>
+    <string name="type_electric">बिजली</string>
+    <string name="type_grass">घास</string>
+    <string name="type_ice">बर्फ़</string>
+    <string name="type_fighting">लड़ाकू</string>
+    <string name="type_poison">ज़हर</string>
+    <string name="type_ground">ज़मीन</string>
+    <string name="type_flying">उड़ान</string>
+    <string name="type_psychic">मानसिक</string>
+    <string name="type_bug">कीट</string>
+    <string name="type_rock">चट्टान</string>
+    <string name="type_ghost">भूत</string>
+    <string name="type_dragon">ड्रैगन</string>
+    <string name="type_dark">अंधेरा</string>
+    <string name="type_steel">स्टील</string>
+    <string name="type_fairy">परी</string>
+</resources>

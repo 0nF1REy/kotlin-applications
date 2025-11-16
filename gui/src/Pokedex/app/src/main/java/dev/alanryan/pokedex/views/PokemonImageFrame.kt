@@ -1,10 +1,11 @@
 package dev.alanryan.pokedex.views
 
-import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -20,14 +21,17 @@ import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.drawscope.clipPath
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.colorResource
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import dev.alanryan.pokedex.R
 import dev.alanryan.pokedex.models.Pokemon
-import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.unit.sp
+import dev.alanryan.pokedex.utils.getTypeStringResource
 
 @Composable
 fun PokemonImageFrame(
@@ -73,43 +77,56 @@ fun PokemonImageFrame(
                     .clip(RoundedCornerShape(20.dp)),
                 contentAlignment = Alignment.Center
             ) {
-                currentPokemon.let {
-                    AsyncImage(
-                        modifier = Modifier
-                            .fillMaxWidth(),
-                        model = it.pokemonImage,
-                        contentDescription = "",
-                        contentScale = ContentScale.Fit
-                    )
-                }
+                AsyncImage(
+                    modifier = Modifier
+                        .fillMaxWidth(),
+                    model = currentPokemon.pokemonImage,
+                    contentDescription = currentPokemon.name,
+                    contentScale = ContentScale.Fit
+                )
             }
 
-            currentPokemon.let {
-                Text(
-                    modifier = Modifier
-                        .fillMaxWidth(),
-                    text = "${it.pokedexNumber}: ${it.name}",
-                    fontFamily = font,
-                    style = TextStyle(
-                        fontWeight = FontWeight.Bold
-                    ),
-                    fontSize = 24.sp,
-                    color = Color.Black,
-                    textAlign = TextAlign.Center
-                )
+            Text(
+                modifier = Modifier
+                    .fillMaxWidth(),
+                text = "${currentPokemon.pokedexNumber}: ${currentPokemon.name}",
+                fontFamily = font,
+                style = TextStyle(
+                    fontWeight = FontWeight.Bold
+                ),
+                fontSize = 24.sp,
+                color = Color.Black,
+                textAlign = TextAlign.Center
+            )
 
-                Text(
-                    modifier = Modifier
-                        .fillMaxWidth(),
-                    text = it.type.joinToString(separator = ", "),
-                    fontFamily = font,
-                    style = TextStyle(
-                        fontWeight = FontWeight.Bold
-                    ),
-                    fontSize = 16.sp,
-                    color = Color.Black,
-                    textAlign = TextAlign.Center
-                )
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.Center
+            ) {
+                currentPokemon.type.forEachIndexed { index, type ->
+                    Text(
+                        text = stringResource(id = getTypeStringResource(type)),
+                        fontFamily = font,
+                        style = TextStyle(
+                            fontWeight = FontWeight.Bold
+                        ),
+                        fontSize = 16.sp,
+                        color = Color.Black,
+                        textAlign = TextAlign.Center
+                    )
+
+                    if (index < currentPokemon.type.lastIndex) {
+                        Text(
+                            text = ", ",
+                            fontFamily = font,
+                            style = TextStyle(
+                                fontWeight = FontWeight.Bold
+                            ),
+                            fontSize = 16.sp,
+                            color = Color.Black
+                        )
+                    }
+                }
             }
         }
     }
