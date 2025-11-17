@@ -109,6 +109,8 @@ tmp/
 **/app/release/
 **/app/debug/
 *.apk
+!resources/**/*.apk
+!resources/*.apk
 *.ap_
 *.aab
 
