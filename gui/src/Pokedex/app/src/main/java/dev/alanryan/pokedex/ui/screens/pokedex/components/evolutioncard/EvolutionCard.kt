@@ -1,4 +1,4 @@
-package dev.alanryan.pokedex.views
+package dev.alanryan.pokedex.ui.screens.pokedex.components.evolutioncard
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

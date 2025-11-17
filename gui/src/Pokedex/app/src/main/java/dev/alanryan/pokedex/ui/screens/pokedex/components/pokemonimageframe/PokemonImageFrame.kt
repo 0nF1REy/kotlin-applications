@@ -1,4 +1,4 @@
-package dev.alanryan.pokedex.views
+package dev.alanryan.pokedex.ui.screens.pokedex.components.pokemonimageframe
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background

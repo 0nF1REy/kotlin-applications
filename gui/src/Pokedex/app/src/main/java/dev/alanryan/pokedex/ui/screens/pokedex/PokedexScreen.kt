@@ -25,10 +25,10 @@ import androidx.compose.ui.unit.sp
 import dev.alanryan.pokedex.R
 import dev.alanryan.pokedex.models.Pokemon
 import dev.alanryan.pokedex.ui.components.pokedextopbar.PokedexTopBar
-import dev.alanryan.pokedex.views.EvolutionCard
-import dev.alanryan.pokedex.views.NavigationButtons
-import dev.alanryan.pokedex.views.PokemonImageFrame
-import dev.alanryan.pokedex.views.TypeStrengthWeaknessCard
+import dev.alanryan.pokedex.ui.screens.pokedex.components.evolutioncard.EvolutionCard
+import dev.alanryan.pokedex.ui.screens.pokedex.components.navigationbuttons.NavigationButtons
+import dev.alanryan.pokedex.ui.screens.pokedex.components.pokemonimageframe.PokemonImageFrame
+import dev.alanryan.pokedex.ui.screens.pokedex.components.typestrengthweaknesscard.TypeStrengthWeaknessCard
 
 @Composable
 fun PokedexScreen(
