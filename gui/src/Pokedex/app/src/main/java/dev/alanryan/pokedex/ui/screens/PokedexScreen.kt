@@ -5,6 +5,8 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -34,41 +36,50 @@ fun PokedexScreen(
     modifier: Modifier = Modifier,
     pokemonList: List<Pokemon>
 ) {
+
     val font = FontFamily(Font(R.font.pokemon_hollow))
     var currentIndex by remember { mutableIntStateOf(0) }
     val currentPokemon = pokemonList.getOrNull(currentIndex)
 
+    val scrollState = rememberScrollState()
+
     Column(
-        modifier = modifier
-            .fillMaxSize()
+        modifier = modifier.fillMaxSize()
     ) {
 
         Circles()
-
         Lines()
 
-        Spacer(modifier = Modifier.height(8.dp))
+        Column(
+            modifier = Modifier
+                .weight(1f)
+                .verticalScroll(scrollState)
+        ) {
 
-        Text(
-            modifier = Modifier.fillMaxWidth(),
-            text = "Pokédex",
-            fontFamily = font,
-            textAlign = TextAlign.Center,
-            style = TextStyle(fontWeight = FontWeight.Bold),
-            fontSize = 36.sp,
-            color = Color.White
-        )
-        Spacer(modifier = Modifier.height(8.dp))
+            Spacer(modifier = Modifier.height(8.dp))
 
-        currentPokemon?.let {
-            PokemonImageFrame(
-                currentPokemon = it,
-                font = font
+            Text(
+                modifier = Modifier.fillMaxWidth(),
+                text = "Pokédex",
+                fontFamily = font,
+                textAlign = TextAlign.Center,
+                style = TextStyle(fontWeight = FontWeight.Bold),
+                fontSize = 36.sp,
+                color = Color.White
             )
+
             Spacer(modifier = Modifier.height(8.dp))
-            EvolutionCard(currentPokemon = it)
-            Spacer(modifier = Modifier.height(8.dp))
-            TypeStrengthWeaknessCard(currentPokemon = it)
+
+            currentPokemon?.let {
+                PokemonImageFrame(
+                    currentPokemon = it,
+                    font = font
+                )
+                Spacer(modifier = Modifier.height(8.dp))
+                EvolutionCard(currentPokemon = it)
+                Spacer(modifier = Modifier.height(8.dp))
+                TypeStrengthWeaknessCard(currentPokemon = it)
+            }
         }
 
         NavigationButtons(
