@@ -32,7 +32,7 @@ Cada subprojeto Android é autocontido e inclui seu próprio Gradle wrapper e co
 ### 🔎 Pokedex
 
 **📂 Pasta:** `Pokedex/`  
-**🎯 Descrição:** Aplicativo de exemplo Android que implementa uma Pokédex com tela de listagem e detalhe de Pokémon. Demonstra práticas modernas de arquitetura e UI, incluindo componentes modularizados, cards de tipos com visualização de força/weakness e suporte a evolução/linhas. Ideal como referência para aprender sobre navegação, ViewModel, datasets locais e organização de recursos em um app Android.
+**🎯 Descrição:** Um aplicativo Pokedex construído com práticas modernas de desenvolvimento Android. Ele demonstra uma arquitetura limpa e componentização de UI com Jetpack Compose. O projeto opera primariamente offline, com todos os dados sendo lidos de um dataset JSON local, enquanto as imagens são carregadas de uma fonte remota para otimizar o tamanho do aplicativo. É uma referência didática clara e fácil de estender.
 
 #### 📱 Telas
 
@@ -51,34 +51,23 @@ Cada subprojeto Android é autocontido e inclui seu próprio Gradle wrapper e co
 </table>
 </div>
 
-#### ✨ Funcionalidades
+#### ✨ Principais Funcionalidades
 
-- **📋 Listagem e detalhe:** Listagem paginada/rolável de Pokémon e tela de detalhe com informações e estatísticas.
-- **🎴 Cards de tipo:** Visualização por tipo com indicação de forças e fraquezas entre tipos.
-- **🔁 Evolução / Linhas:** Visualização das linhas de evolução e relações entre espécies.
-- **🧭 Navegação:** Navegação entre telas com back stack e top bar reutilizável.
-- **📦 Dataset local:** Uso de dataset local e recursos (imagens/icones) para demonstração offline.
-- **🧩 Componentes reutilizáveis:** UI dividida em componentes pequenos e reutilizáveis (cards, lists, headers).
+- **Navegação de Pokémon:** Visualize uma lista de Pokémon e navegue entre eles com botões de "Anterior" e "Próximo".
+- **Visualização de Tipos:** Cards coloridos que exibem os tipos de cada Pokémon.
+- **Análise de Batalha:** Informações claras sobre contra quais tipos o Pokémon é forte e fraco.
+- **Linha Evolutiva:** Exibição da cadeia de evoluções do Pokémon.
+- **UI Responsiva:** O layout se adapta para funcionar nos modos retrato e paisagem.
 
-#### 🧰 Tecnologias Utilizadas
+#### 🧰 Stack de Tecnologia e Arquitetura
 
-- **Linguagem:** Kotlin
-- **Arquitetura:** MVVM (ViewModel + LiveData/StateFlow)
-- **UI:** AndroidX, Material Components, components Jetpack (RecyclerView / Compose if applicable)
-- **Build:** Gradle (wrapper incluído)
-- **Outros:** Uso de recursos locais (drawable, layouts, strings) e configurações ProGuard quando aplicável
-
-#### 🔬 Recursos Demonstrados
-
-- **Arquitetura desacoplada:** Separação entre UI, lógica e dados.
-- **Componentização da UI:** Cards e componentes menores reaproveitáveis.
-- **Gerenciamento de estado:** ViewModel e padrões de atualização de UI.
-
-#### 🎯 Características Técnicas
-
-- **Referência didática:** Projeto pensado como exemplo para aprendizado e experimentação.
-- **Offline-friendly:** Funciona com dataset local para evitar dependências externas.
-- **Fácil de estender:** Arquitetura preparada para adicionar APIs, testes ou internacionalização.
+- **Linguagem:** Kotlin.
+- **UI Toolkit:** **Jetpack Compose** para uma UI declarativa e moderna.
+- **Arquitetura:** **MVVM** (Model-View-ViewModel) para uma clara separação de responsabilidades.
+- **Gerenciamento de Estado:** **StateFlow** do Kotlin Coroutines para um fluxo de dados reativo e observável.
+- **Carregamento de Imagens:** **Coil** para carregar imagens da internet de forma eficiente.
+- **API de Splash Screen:** Implementação da API oficial do Android para uma tela de inicialização moderna e consistente.
+- **Build System:** **Gradle** com Kotlin DSL.
 
 ---
 
