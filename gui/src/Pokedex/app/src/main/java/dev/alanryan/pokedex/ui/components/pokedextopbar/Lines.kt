@@ -1,4 +1,4 @@
-package dev.alanryan.pokedex.views
+package dev.alanryan.pokedex.ui.components.pokedextopbar
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -12,7 +12,7 @@ import kotlin.math.cos
 import kotlin.math.sin
 
 @Composable
-fun Lines() {
+internal fun Lines() {
     Canvas(
         modifier = Modifier
             .fillMaxWidth()

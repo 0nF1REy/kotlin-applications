@@ -1,4 +1,4 @@
-package dev.alanryan.pokedex.views
+package dev.alanryan.pokedex.ui.components.pokedextopbar
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.Box
@@ -13,7 +13,7 @@ import androidx.compose.ui.unit.dp
 import androidx.core.graphics.toColorInt
 
 @Composable
-fun Circles() {
+internal fun Circles() {
     Box {
         Canvas(
             modifier = Modifier

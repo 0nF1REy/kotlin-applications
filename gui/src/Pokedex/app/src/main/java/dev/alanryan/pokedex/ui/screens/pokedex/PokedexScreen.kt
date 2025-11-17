@@ -1,4 +1,4 @@
-package dev.alanryan.pokedex.ui.screens
+package dev.alanryan.pokedex.ui.screens.pokedex
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -24,9 +24,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import dev.alanryan.pokedex.R
 import dev.alanryan.pokedex.models.Pokemon
-import dev.alanryan.pokedex.views.Circles
+import dev.alanryan.pokedex.ui.components.pokedextopbar.PokedexTopBar
 import dev.alanryan.pokedex.views.EvolutionCard
-import dev.alanryan.pokedex.views.Lines
 import dev.alanryan.pokedex.views.NavigationButtons
 import dev.alanryan.pokedex.views.PokemonImageFrame
 import dev.alanryan.pokedex.views.TypeStrengthWeaknessCard
@@ -47,8 +46,7 @@ fun PokedexScreen(
         modifier = modifier.fillMaxSize()
     ) {
 
-        Circles()
-        Lines()
+        PokedexTopBar()
 
         Column(
             modifier = Modifier

@@ -13,7 +13,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
-import dev.alanryan.pokedex.ui.screens.PokedexScreen
+import dev.alanryan.pokedex.ui.screens.pokedex.PokedexScreen
 import dev.alanryan.pokedex.ui.theme.PokedexTheme
 import dev.alanryan.pokedex.viewmodels.MainViewModel
 import dev.alanryan.pokedex.viewmodels.MainViewModelFactory
