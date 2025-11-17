@@ -1,5 +1,6 @@
 package dev.alanryan.pokedex.ui.screens.pokedex.components.typestrengthweaknesscard
 
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -20,34 +21,42 @@ import dev.alanryan.pokedex.utils.getTypeColor
 import dev.alanryan.pokedex.utils.getTypeStringResource
 
 @Composable
-fun TypeStrengthWeaknessCard(
+internal fun TypeStrengthWeaknessCard(
     currentPokemon: Pokemon
 ) {
-    Card(
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(horizontal = 20.dp),
-        colors = CardDefaults.cardColors(
-            containerColor = Color.White
-        ),
-        shape = RoundedCornerShape(20.dp)
-    ) {
-        Row(
+    if (currentPokemon.strongAgainst.isNotEmpty() || currentPokemon.weakAgainst.isNotEmpty()) {
+        Card(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(12.dp)
+                .padding(horizontal = 20.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = Color.White
+            ),
+            shape = RoundedCornerShape(20.dp)
         ) {
-            TypeColumn(
-                modifier = Modifier.weight(1f),
-                title = "FORTE CONTRA",
-                typesList = currentPokemon.strongAgainst
-            )
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(12.dp),
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
 
-            TypeColumn(
-                modifier = Modifier.weight(1f),
-                title = "FRACO CONTRA",
-                typesList = currentPokemon.weakAgainst
-            )
+                if (currentPokemon.strongAgainst.isNotEmpty()) {
+                    TypeColumn(
+                        modifier = Modifier.weight(1f),
+                        title = "FORTE CONTRA",
+                        typesList = currentPokemon.strongAgainst
+                    )
+                }
+
+                if (currentPokemon.weakAgainst.isNotEmpty()) {
+                    TypeColumn(
+                        modifier = Modifier.weight(1f),
+                        title = "FRACO CONTRA",
+                        typesList = currentPokemon.weakAgainst
+                    )
+                }
+            }
         }
     }
 }

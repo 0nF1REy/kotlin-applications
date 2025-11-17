@@ -20,7 +20,7 @@ import androidx.compose.ui.unit.sp
 import dev.alanryan.pokedex.models.Pokemon
 
 @Composable
-fun EvolutionCard(
+internal fun EvolutionCard(
     currentPokemon: Pokemon
 ) {
     Card(

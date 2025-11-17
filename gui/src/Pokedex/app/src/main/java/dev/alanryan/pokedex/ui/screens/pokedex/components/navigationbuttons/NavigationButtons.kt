@@ -19,7 +19,7 @@ import androidx.compose.ui.unit.dp
 import dev.alanryan.pokedex.ui.theme.PokedexPurple
 
 @Composable
-fun NavigationButtons(
+internal fun NavigationButtons(
     currentIndex: Int,
     totalPokemons: Int,
     onPreviousClick: () -> Unit,

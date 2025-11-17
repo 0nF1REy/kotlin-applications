@@ -34,7 +34,7 @@ import dev.alanryan.pokedex.models.Pokemon
 import dev.alanryan.pokedex.utils.getTypeStringResource
 
 @Composable
-fun PokemonImageFrame(
+internal fun PokemonImageFrame(
     currentPokemon: Pokemon,
     font: FontFamily
 ) {
