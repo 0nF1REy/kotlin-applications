@@ -27,13 +27,68 @@ Cada subprojeto Android é autocontido e inclui seu próprio Gradle wrapper e co
 - `cli/` — exemplos simples em Kotlin para linha de comando (demos de um único arquivo).
 - `gui/src/` — aplicativos de exemplo para Android. Cada app está em sua própria pasta e inclui um módulo `app/` e o Gradle wrapper.
 
-## 🛠️ Pré-requisitos
+## 🚀 Projetos
+
+### 🔎 Pokedex
+
+**📂 Pasta:** `Pokedex/`  
+**🎯 Descrição:** Aplicativo de exemplo Android que implementa uma Pokédex com tela de listagem e detalhe de Pokémon. Demonstra práticas modernas de arquitetura e UI, incluindo componentes modularizados, cards de tipos com visualização de força/weakness e suporte a evolução/linhas. Ideal como referência para aprender sobre navegação, ViewModel, datasets locais e organização de recursos em um app Android.
+
+#### 📱 Telas
+
+<div align="center">
+<table align="center" style="border-collapse:collapse;">
+  <tr>
+    <td style="padding:8px; text-align:center; vertical-align:top;">
+      <p style="margin:0 0 8px 0; font-weight:700;">Splash</p>
+      <img src="./resources/docs/pokedex/01-splash.jpeg" alt="Pokedex splash" height="300" style="display:block; margin:0 auto;" />
+    </td>
+    <td style="padding:8px; text-align:center; vertical-align:top;">
+      <p style="margin:0 0 8px 0; font-weight:700;">Home</p>
+      <img src="./resources/docs/pokedex/02-home.jpeg" alt="Pokedex home" height="300" style="display:block; margin:0 auto;" />
+    </td>
+  </tr>
+</table>
+</div>
+
+#### ✨ Funcionalidades
+
+- **📋 Listagem e detalhe:** Listagem paginada/rolável de Pokémon e tela de detalhe com informações e estatísticas.
+- **🎴 Cards de tipo:** Visualização por tipo com indicação de forças e fraquezas entre tipos.
+- **🔁 Evolução / Linhas:** Visualização das linhas de evolução e relações entre espécies.
+- **🧭 Navegação:** Navegação entre telas com back stack e top bar reutilizável.
+- **📦 Dataset local:** Uso de dataset local e recursos (imagens/icones) para demonstração offline.
+- **🧩 Componentes reutilizáveis:** UI dividida em componentes pequenos e reutilizáveis (cards, lists, headers).
+
+#### 🧰 Tecnologias Utilizadas
+
+- **Linguagem:** Kotlin
+- **Arquitetura:** MVVM (ViewModel + LiveData/StateFlow)
+- **UI:** AndroidX, Material Components, components Jetpack (RecyclerView / Compose if applicable)
+- **Build:** Gradle (wrapper incluído)
+- **Outros:** Uso de recursos locais (drawable, layouts, strings) e configurações ProGuard quando aplicável
+
+#### 🔬 Recursos Demonstrados
+
+- **Arquitetura desacoplada:** Separação entre UI, lógica e dados.
+- **Componentização da UI:** Cards e componentes menores reaproveitáveis.
+- **Gerenciamento de estado:** ViewModel e padrões de atualização de UI.
+
+#### 🎯 Características Técnicas
+
+- **Referência didática:** Projeto pensado como exemplo para aprendizado e experimentação.
+- **Offline-friendly:** Funciona com dataset local para evitar dependências externas.
+- **Fácil de estender:** Arquitetura preparada para adicionar APIs, testes ou internacionalização.
+
+---
+
+## 🔧 Pré-requisitos
 
 - JDK 11 ou superior (dependendo dos requisitos do Android Gradle Plugin usados nos projetos).
 - Compilador de linha de comando do Kotlin (`kotlinc`) caso queira compilar os exemplos CLI sem usar o Gradle.
 - Android Studio (recomendado) ou Android SDK + Gradle para construir os projetos Android.
 
-## 🔧 Build e execução
+## ⚙️ Build e execução
 
 Exemplo CLI (Hello World)
 
